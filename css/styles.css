@@ -660,10 +660,12 @@ border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    padding-left: 16px;
+    color: #FFFFFF;
 }
 
 .footer-form-mail input::placeholder {
-    padding-left: 16px;
+    
 }
 
 
@@ -688,6 +690,7 @@ border-radius: 4px;
     transform: translate(-50%, -50%) scaleY(1);
     transition: transform 250ms linear;
     padding: 40px;
+    border-radius: 5px;
 }
 
 .bacdrop.is-hidden .modal {
@@ -713,6 +716,10 @@ border-radius: 4px;
     width: 18px;
     height: 18px;
     padding: 0;
+}
+
+.modal-close-icon:hover {
+    fill: #2196F3;
 }
 
 
@@ -786,6 +793,8 @@ margin-bottom: 4px;
     margin-top: 4px;
     margin-bottom: 20px;
 }
+
+
 
 .form-coment-text {
 font-weight: 400;
